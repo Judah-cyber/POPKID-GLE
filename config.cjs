@@ -3,9 +3,9 @@ require("dotenv").config();
 
 const config = {
   // 🧠 Session & Identity
-  SESSION_ID: process.env.SESSION_ID || "POPKID;;;TxgGCZRB#Vap4Y2QPzXAkH5HAh_9Umf0hZ2n5KWboqrBAG779cWI",
-  PREFIX: process.env.PREFIX || '.√',
-  BOT_NAME: process.env.BOT_NAME || "THE FLASH",
+  SESSION_ID: process.env.SESSION_ID || "POPKID;;;KwgAnZSD#y_bqidTSNOn1k9z_UTedQbN8YHEVkpk74UJFggYyDSA",
+  PREFIX: process.env.PREFIX || '.*',
+  BOT_NAME: process.env.BOT_NAME || "NARUTO",
   BOT: process.env.BOT || "hello 👋",
   STATUS_READ_MSG: "👋 Hello! I saw your status.",
   NEW_CMD: process.env.NEW_CMD || "ᴀᴅᴅᴠᴀʀ\n│ sᴜᴅᴏ\n| flash",
@@ -26,9 +26,9 @@ const config = {
   AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS === 'true',
   AUTO_STICKER: process.env.AUTO_STICKER === 'true',
   AUTO_READ: process.env.AUTO_READ === 'true',
-  AUTO_TYPING: process.env.AUTO_TYPING === 'true',
+  AUTO_TYPING: process.env.AUTO_TYPING === 'false',
   AUTO_RECORDING: process.env.AUTO_RECORDING === 'false',
-  AUTO_REACT: process.env.AUTO_REACT === 'true',
+  AUTO_REACT: process.env.AUTO_REACT === 'false',
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE === 'true',
   AUTO_BLOCK: process.env.AUTO_BLOCK !== 'false', // true by default
 
@@ -49,7 +49,7 @@ const config = {
   DELETED_MESSAGES_CHAT_ID: process.env.DELETED_MESSAGES_CHAT_ID || "2348083806476@s.whatsapp.net",
 
   // 👑 Owner & Permissions
-  OWNER_NAME: process.env.OWNER_NAME || "THE FLASH💨",
+  OWNER_NAME: process.env.OWNER_NAME || "NARUTO",
   OWNER_NUMBER: process.env.OWNER_NUMBER || "2348083806476",
   SUDO_NUMBER: process.env.SUDO_NUMBER || "2348083806476",
 
